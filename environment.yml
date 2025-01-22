@@ -1,0 +1,56 @@
+name: specrage
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - cuda=11.7.1
+  - cuda-cccl=11.7.91
+  - cuda-command-line-tools=11.7.1
+  - cuda-compiler=11.7.1
+  - cuda-toolkit=11.7.1
+  - h5py=3.7.0
+  - jupyter_client=7.4.8
+  - jupyter_core=5.1.1
+  - matplotlib-inline=0.1.6
+  - munkres=1.1.4
+  - numexpr=2.8.4
+  - numpy=1.23.3
+  - numpy-base=1.23.3
+  - pandas=1.4.4
+  - pillow=9.3.0
+  - pip=22.3.1
+  - python=3.10.9
+  - pytorch=1.13.0
+  - pytorch-cuda=11.7
+  - pytorch-mutex=1.0
+  - scikit-learn=1.1.2
+  - scipy=1.10.0
+  - toml=0.10.2
+  - torchaudio=0.13.0
+  - torchvision=0.14.0
+  - wheel=0.37.1
+  - pip:
+    - annoy==1.16.2
+    - gdown==4.6.0 
+    - hypnettorch==0.0.4
+    - json5==0.9.5
+    - matplotlib==3.3.4
+    - notebook==6.5.2
+    - numba==0.59.0
+    - pyriemann==0.5
+    - ruff==0.2.2
+    - safetensors==0.4.2
+    - scikit-image==0.22.0
+    - seaborn==0.12.1
+    - tokenizers==0.15.2
+    - tomli==2.0.1
+    - tomlkit==0.12.0
+    - toolz==0.12.1
+    - torchmetrics==1.0.3
+    - tqdm==4.64.1
+    - wandb==0.16.3
+    - werkzeug==2.3.7
+    - wget==3.2
+    - yarl==1.9.2
+prefix: /home/dsi/amitai/anaconda3/envs/amitai_specnet

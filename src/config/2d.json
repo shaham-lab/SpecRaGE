@@ -1,0 +1,38 @@
+{
+    "dataset": "2d",
+    "n_views": 2,
+    "should_use_ae": false,
+    "should_use_siamese": false,
+    "datatypes": [
+        "vector",
+        "vector"
+    ],
+    "n_clusters": 3,
+    "is_sparse_graph": false,
+    "spectral": {
+        "architectures": [
+            {
+                "n_layers": 4,
+                "hidden_dim1": 128,
+                "hidden_dim2": 128,
+                "output_dim": 3
+            },
+            {
+                "n_layers": 4,
+                "hidden_dim1": 128,
+                "hidden_dim2": 128,
+                "output_dim": 3
+            }
+        ],
+        "epochs": 50,
+        "lr": 1e-2,
+        "lr_decay": 0.1,
+        "min_lr": 1e-8,
+        "batch_size": 1024,
+        "n_neighbors": 30,
+        "scale_k": 15,
+        "is_local_scale": false,
+        "temperture": 90,
+        "patience": 10
+    }
+}
