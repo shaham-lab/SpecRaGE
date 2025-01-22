@@ -1,4 +1,4 @@
-# MvSpecNet
+# SpecRaGE
 This is the official PyTorch implementation of MvSpecNet from the paper "Scalable and Generalizable Multi-view Deep Spectral Representation Learning".
 
 <p align="center">
