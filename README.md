@@ -2,7 +2,10 @@
 This is the official PyTorch implementation of SpecRaGE from the paper "Generalizable and Robust Spectral Method for Multi-view Representation Learning".
 
 <p align="center">
-    <img src="https://github.com/shaham-lab/SpecRaGE/blob/main/figures/SpecRaGE.png">
+    <img src="https://github.com/shaham-lab/SpecRaGE/blob/main/figures/SpecRaGE.png" width="600">
+</p>
+
+
 
 ## Installation
 To run the project, clone this repo and then create a conda environment via:
