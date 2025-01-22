@@ -2,7 +2,7 @@
 This is the official PyTorch implementation of MvSpecNet from the paper "Scalable and Generalizable Multi-view Deep Spectral Representation Learning".
 
 <p align="center">
-    <img src="https://github.com/shaham-lab/SpecRaGE/blob/main/figures/MvSpecNet.png">
+    <img src="https://github.com/shaham-lab/SpecRaGE/blob/main/figures/SpecRaGE.png">
 
 ## Installation
 To run the project, clone this repo and then create a conda environment via:
