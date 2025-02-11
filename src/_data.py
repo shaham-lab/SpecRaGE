@@ -25,6 +25,23 @@ class BDGP(Dataset):
         return [view[idx] for view in self.views], self.labels[idx]
 
 
+class NoisyMNIST(Dataset):
+    def __init__(self, path):
+        data = np.load(path)
+        scaler = MinMaxScaler()
+        view1 = data["view_0"].reshape(70000, -1)
+        view2 = data["view_1"].reshape(70000, -1)
+        self.n_samples = len(view1)
+
+        self.views = [torch.from_numpy(view1), torch.from_numpy(view2)]
+        self.labels = torch.from_numpy(data["labels"])
+
+    def __len__(self):
+        return len(self.labels)
+    
+    def __getitem__(self, idx):
+        return [view[idx] for view in self.views], self.labels[idx]
+
 
 class AffNoisyMNIST(Dataset):
     def __init__(self, path, n_samples=500000):

@@ -152,7 +152,7 @@ class SpecRaGETrainer:
                     X[i] = X[i].to(device=self.device)
                 y = y.to(self.device)
 
-                Y, weights = self.specrage_model(X, is_orthonorm=True)
+                Y, weights = self.specrage_model(X, is_orthonorm=False)
                 if len(self.siamese_nets) > 0:
                     for i in range(len(X)):
                         X[i] = self.siamese_nets[i].forward_once(X[i])
