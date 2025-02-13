@@ -260,8 +260,8 @@ def load_data(dataset: str) -> tuple:
         return train_test_split(data)
 
     elif dataset == "noisy":
-        data = AffNoisyMNIST("../data/noisymnist_train.npz")
-        return affnoisy_mnist_split(data)
+        data = NoisyMNIST("../data/noisymnist_train.npz")
+        return train_test_split(data)
 
     elif dataset == "2d":
         data = Synthetic()

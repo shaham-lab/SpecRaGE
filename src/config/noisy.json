@@ -77,7 +77,7 @@
                 "output_dim": 10
             }
         ],
-        "epochs": 5,
+        "epochs": 3,
         "lr": 1e-3,
         "lr_decay": 0.1,
         "min_lr": 1e-8,
@@ -86,7 +86,7 @@
         "scale_k": 15,
         "is_local_scale": false,
         "n_clusters": 10,
-        "temperture": 1000000,
+        "temperture": 250,
         "patience": 5
     }
 }
