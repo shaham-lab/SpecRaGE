@@ -5,6 +5,7 @@ This is the official PyTorch implementation of SpecRaGE from the paper "Generali
     <img src="https://github.com/shaham-lab/SpecRaGE/blob/main/figures/SpecRaGE.png" width="600">
 </p>
 
+For any question, feel free to approach me in this mail - amitaiyacobi@gmail.com
 
 
 ## Installation
